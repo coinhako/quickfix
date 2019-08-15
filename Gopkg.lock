@@ -72,10 +72,7 @@
   branch = "master"
   digest = "1:898bc7c802c1e0c20cecd65811e90b7b9bc5651b4a07aefd159451bfb200b2b3"
   name = "golang.org/x/net"
-  packages = [
-    "context",
-    "proxy",
-  ]
+  packages = ["context"]
   pruneopts = ""
   revision = "a04bdaca5b32abe1c069418fb7088ae607de5bd0"
 
@@ -91,7 +88,6 @@
     "github.com/stretchr/testify/mock",
     "github.com/stretchr/testify/require",
     "github.com/stretchr/testify/suite",
-    "golang.org/x/net/proxy",
   ]
   solver-name = "gps-cdcl"
   solver-version = 1

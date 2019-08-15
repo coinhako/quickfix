@@ -7,9 +7,9 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/coinhako/quickfix"
-	"github.com/coinhako/quickfix/gen/field"
-	"github.com/coinhako/quickfix/gen/tag"
+	"github.com/quickfixgo/quickfix"
+	"github.com/quickfixgo/quickfix/gen/field"
+	"github.com/quickfixgo/quickfix/gen/tag"
 )
 
 var router *quickfix.MessageRouter = quickfix.NewMessageRouter()
