@@ -1,7 +1,7 @@
 package quickfix
 
 import (
-	"github.com/quickfixgo/quickfix/config"
+	"github.com/coinhako/quickfix/config"
 	"github.com/stretchr/testify/suite"
 	"net"
 	"testing"

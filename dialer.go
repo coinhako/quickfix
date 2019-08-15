@@ -2,7 +2,7 @@ package quickfix
 
 import (
 	"fmt"
-	"github.com/quickfixgo/quickfix/config"
+	"github.com/coinhako/quickfix/config"
 	"golang.org/x/net/proxy"
 	"net"
 )

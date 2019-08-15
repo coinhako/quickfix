@@ -1,51 +1,51 @@
 QuickFIX/Go
 ===========
 
-[![GoDoc](https://godoc.org/github.com/quickfixgo/quickfix?status.png)](https://godoc.org/github.com/quickfixgo/quickfix) [![Build Status](https://travis-ci.org/quickfixgo/quickfix.svg?branch=master)](https://travis-ci.org/quickfixgo/quickfix) [![Go Report Card](https://goreportcard.com/badge/github.com/quickfixgo/quickfix)](https://goreportcard.com/report/github.com/quickfixgo/quickfix)
+[![GoDoc](https://godoc.org/github.com/coinhako/quickfix?status.png)](https://godoc.org/github.com/coinhako/quickfix) [![Build Status](https://travis-ci.org/coinhako/quickfix.svg?branch=master)](https://travis-ci.org/coinhako/quickfix) [![Go Report Card](https://goreportcard.com/badge/github.com/coinhako/quickfix)](https://goreportcard.com/report/github.com/coinhako/quickfix)
 
-- Website: http://www.quickfixgo.org
-- Mailing list: [Google Groups](https://groups.google.com/forum/#!forum/quickfixgo)
+- Website: http://www.coinhako.org
+- Mailing list: [Google Groups](https://groups.google.com/forum/#!forum/coinhako)
 
 Open Source [FIX Protocol](http://www.fixprotocol.org/) library implemented in Go
 
 Getting Started and Documentation
 ---------------------------------
 
-* [User Manual](http://quickfixgo.org/docs)
-* [API Documentation](https://godoc.org/github.com/quickfixgo/quickfix)
+* [User Manual](http://coinhako.org/docs)
+* [API Documentation](https://godoc.org/github.com/coinhako/quickfix)
 
 ### Installation
 
 To install QuickFIX/Go, use `go get`:
 
 ```sh
-$ go get github.com/quickfixgo/quickfix
+$ go get github.com/coinhako/quickfix
 ```
 
 ### Staying up to date
 
-To update QuickFIX/Go to the latest version, use `go get -u github.com/quickfixgo/quickfix`.
+To update QuickFIX/Go to the latest version, use `go get -u github.com/coinhako/quickfix`.
 
 ### Example Apps
 
-See [examples](https://github.com/quickfixgo/examples) for some simple examples of using QuickFIX/Go.
+See [examples](https://github.com/coinhako/examples) for some simple examples of using QuickFIX/Go.
 
 ### FIX Message Generation
 
 QuickFIX/Go includes separate packages for tags, fields, enums, messages, and message components generated from the FIX 4.0 - FIX5.0SP2 specs. See:
 
-* [github.com/quickfixgo/tag](https://github.com/quickfixgo/tag)
-* [github.com/quickfixgo/field](https://github.com/quickfixgo/field)
-* [github.com/quickfixgo/enum](https://github.com/quickfixgo/enum)
-* [github.com/quickfixgo/fix40](https://github.com/quickfixgo/fix40)
-* [github.com/quickfixgo/fix41](https://github.com/quickfixgo/fix41)
-* [github.com/quickfixgo/fix42](https://github.com/quickfixgo/fix42)
-* [github.com/quickfixgo/fix43](https://github.com/quickfixgo/fix43)
-* [github.com/quickfixgo/fix44](https://github.com/quickfixgo/fix44)
-* [github.com/quickfixgo/fix50](https://github.com/quickfixgo/fix50)
-* [github.com/quickfixgo/fix50sp1](https://github.com/quickfixgo/fix50sp1)
-* [github.com/quickfixgo/fix50sp2](https://github.com/quickfixgo/fix50sp2)
-* [github.com/quickfixgo/fixt11](https://github.com/quickfixgo/fixt11)
+* [github.com/coinhako/tag](https://github.com/coinhako/tag)
+* [github.com/coinhako/field](https://github.com/coinhako/field)
+* [github.com/coinhako/enum](https://github.com/coinhako/enum)
+* [github.com/coinhako/fix40](https://github.com/coinhako/fix40)
+* [github.com/coinhako/fix41](https://github.com/coinhako/fix41)
+* [github.com/coinhako/fix42](https://github.com/coinhako/fix42)
+* [github.com/coinhako/fix43](https://github.com/coinhako/fix43)
+* [github.com/coinhako/fix44](https://github.com/coinhako/fix44)
+* [github.com/coinhako/fix50](https://github.com/coinhako/fix50)
+* [github.com/coinhako/fix50sp1](https://github.com/coinhako/fix50sp1)
+* [github.com/coinhako/fix50sp2](https://github.com/coinhako/fix50sp2)
+* [github.com/coinhako/fixt11](https://github.com/coinhako/fixt11)
 
 For most FIX applications, these generated resources are sufficient. Custom FIX applications may generate source specific to the FIX spec of that application using the `generate-fix` tool included with QuickFIX/Go.
 
@@ -58,7 +58,7 @@ If you wish to work on QuickFIX/Go itself, you will first need [Go](http://www.g
 
 For local dev first make sure Go is properly installed, including setting up a [GOPATH](http://golang.org/doc/code.html#GOPATH).
 
-Next, using [Git](https://git-scm.com/), clone this repository into `$GOPATH/src/github.com/quickfixgo/quickfix`. 
+Next, using [Git](https://git-scm.com/), clone this repository into `$GOPATH/src/github.com/coinhako/quickfix`. 
 
 ### Installing Dependencies
 
@@ -88,7 +88,7 @@ If this exits with exit status 0, then everything is working!
 
 ### Generated Code
 
-Generated code from the FIX40-FIX50SP2 specs are available as separate repos under the [QuickFIX/Go organization](https://github.com/quickfixgo).  The source specifications for this generated code is located in `spec/`.  Generated code can be identified by the `.generated.go` suffix.  Any changes to generated code must be captured by changes to source in `cmd/generate-fix`.  After making changes to the code generator source, run the following to re-generate the source
+Generated code from the FIX40-FIX50SP2 specs are available as separate repos under the [QuickFIX/Go organization](https://github.com/coinhako).  The source specifications for this generated code is located in `spec/`.  Generated code can be identified by the `.generated.go` suffix.  Any changes to generated code must be captured by changes to source in `cmd/generate-fix`.  After making changes to the code generator source, run the following to re-generate the source
 
 ```sh
 $ make generate-dist
@@ -151,4 +151,4 @@ $ dep ensure
 Licensing
 ---------
 
-This software is available under the QuickFIX Software License. Please see the [LICENSE.txt](https://github.com/quickfixgo/quickfix/blob/master/LICENSE.txt) for the terms specified by the QuickFIX Software License.
+This software is available under the QuickFIX Software License. Please see the [LICENSE.txt](https://github.com/coinhako/quickfix/blob/master/LICENSE.txt) for the terms specified by the QuickFIX Software License.
