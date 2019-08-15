@@ -9,7 +9,7 @@ Before proposing a large change, please discuss your change by raising an issue.
 ## Submitting Changes
 
 * Push your changes to a topic branch in your fork of the repository
-* Submit a pull request to the repository in the coinhako Organization
+* Submit a pull request to the repository in the  Organization
 
 ## Notes
 
