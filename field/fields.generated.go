@@ -8,6 +8,7 @@ import (
 	"time"
 )
 
+// From Phong
 //AccountField is a STRING field
 type AccountField struct{ quickfix.FIXString }
 
