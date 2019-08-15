@@ -1,9 +1,9 @@
 package field
 
 import (
-	"github.com/coinhako/enum"
+	"github.com/coinhako/quickfix/enum"
 	"github.com/coinhako/quickfix"
-	"github.com/coinhako/tag"
+	"github.com/coinhako/quickfix/tag"
 	"github.com/shopspring/decimal"
 	"time"
 )
